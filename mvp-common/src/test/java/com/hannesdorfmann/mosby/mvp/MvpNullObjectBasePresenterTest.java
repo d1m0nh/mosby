@@ -17,7 +17,6 @@
 
 package com.hannesdorfmann.mosby.mvp;
 
-import android.support.annotation.NonNull;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -89,7 +88,7 @@ public class MvpNullObjectBasePresenterTest {
       getView().showThat();
     }
 
-    @NonNull @Override public TestView getView() {
+    @Override public TestView getView() {
       return super.getView();
     }
   }

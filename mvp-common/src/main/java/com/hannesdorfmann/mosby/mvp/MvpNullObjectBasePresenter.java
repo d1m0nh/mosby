@@ -1,6 +1,5 @@
 package com.hannesdorfmann.mosby.mvp;
 
-import android.support.annotation.NonNull;
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 
@@ -25,7 +24,7 @@ public class MvpNullObjectBasePresenter<V extends MvpView> implements MvpPresent
     this.view = view;
   }
 
-  @NonNull public V getView() {
+  public V getView() {
     if (view == null) {
       throw new NullPointerException("MvpView reference is null. Have you called attachView()?");
     }

@@ -35,16 +35,16 @@ allprojects {
 ext {
   minSdk = 14
   targetSdk = 23
-  buildToolsVersion = '23.0.0'
+  buildToolsVersion = '23.0.1'
   compileSdkVersion = 23
 
   javaSourceCompatibility = JavaVersion.VERSION_1_7
   javaTargetCompatibility = JavaVersion.VERSION_1_7
 
   // Libraries
-  appcompat7Version = '23.0.1'
-  supportAnnotations = '23.0.1'
-  recyclerviewVersion = '23.0.1'
+  appcompat7Version = '23.1.1'
+  supportAnnotations = '23.1.1'
+  recyclerviewVersion = '23.1.1'
 
   // Libraries for samples
   fragmentargsVersion = '2.1.0'
